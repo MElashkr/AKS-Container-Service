@@ -43,3 +43,14 @@ Verify the connection to your cluster using the kubectl get command.
 kubectl get nodes
 ```
 ![alt text](https://github.com/MElashkr/AKS-Container-Service/blob/main/Pictures/kubectl.JPG)
+
+**Azure CLI Sampels**
+<br/>There are some sampels about Azure-CLI in GitHub
+[Azure CLI Sampels](https://github.com/Azure-Samples/azure-cli-samples)
+
+**AKS Command Sampels**
+<br/> [AKS CMD sampels](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#cluster-info)
+
+**AZ-Commands**
+<br/> [AZ commands](https://docs.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest)
+
