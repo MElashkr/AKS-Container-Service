@@ -5,7 +5,7 @@ Goal for this tutorial is Creating AKS container service on Azure and deploy Web
 
 Installing, configuring, and maintaining a Kubernetes cluster could distract your company from the things that provide value. 
 Azure provides AKS as PaaS. On the other hand, does not charge you for Kubernetes masters—you only pay for the nodes (minions) where your containers will be deployed.
-There’s also a cooler service called Azure Container Instances (ACI), which is the “serverless” offering for Docker containers in Azure. What’s nice about this service is that you can scale Kubernetes using ACI
+There’s also a cooler service called Azure Container Instances (ACI), which is the “serverless” offering for Docker containers in Azure. What’s nice about this service is that you can scale Kubernetes using ACI [Kubernetes cluster architecture](https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads)
 
 ## Prerequisites
 Before you start, you need to have the following:
