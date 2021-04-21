@@ -48,9 +48,9 @@ kubectl get nodes
 <br/>There are some sampels about Azure-CLI in GitHub
 [Azure CLI Sampels](https://github.com/Azure-Samples/azure-cli-samples)
 
-**AKS Command Sampels**
+**AKS Command Sampels (from Kubernetes)**
 <br/> [AKS CMD sampels](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#cluster-info)
 
-**AZ-Commands**
+**AZ-Commands (From MS)**
 <br/> [AZ commands](https://docs.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest)
 
