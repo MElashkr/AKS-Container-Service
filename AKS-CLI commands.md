@@ -20,3 +20,26 @@ az aks show --name
 ```
 az aks show --name MyManagedCluster --resource-group MyResourceGroup
 ```
+
+**Available extensions for the Azure CLI**
+<br/>Install extension by CLI. [CLI-Extension](https://docs.microsoft.com/en-us/cli/azure/azure-cli-extensions-list)
+```
+# get a list of extensions
+az extension list-available --output table
+
+# install the AKS extension
+az extension add --name aks-preview
+```
+
+**Configure kubectl to connect to AKS**
+<br/>Configure kubectl to connect to your Kubernetes cluster using the az aks get-credentials command
+```
+az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
+```
+
+**Verify Connection to Cluster**
+Verify the connection to your cluster using the kubectl get command.
+```
+kubectl get nodes
+```
+![alt text](https://github.com/MElashkr/AKS-Container-Service/blob/main/Pictures/kubectl.JPG)
