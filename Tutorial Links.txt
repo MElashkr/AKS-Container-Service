@@ -1,7 +1,0 @@
-# Deploy WebApp to Kubenetes
-
-// Lab for Kubernetes
-https://azuredevopslabs.com/labs/vstsextend/kubernetes/documentation/
-
-// Demo Generateor
-https://azuredevopsdemogenerator.azurewebsites.net/
