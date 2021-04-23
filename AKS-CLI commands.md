@@ -72,7 +72,7 @@ kubectl get service
 ```
 
 **How to validate the service has the right pod**
-<br/>you get the IP,Port, TargetPort(if you defiend it), Endpoints(is the IPs of the pods, which the servie must forward the request to) and more...
+<br/>you get the IP, Port, TargetPort(if you defined it before), Endpoints(is the IPs of the pods, which the service must forward the request to) and more...
 ```
 kubectl describe service your-service-name
 ```
