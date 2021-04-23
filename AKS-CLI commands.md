@@ -54,3 +54,47 @@ kubectl get nodes
 **AZ-Commands (From MS)**
 <br/> [AZ commands](https://docs.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest)
 
+## Deployment and connect to AKS-Service by commands
+
+**Apply deployment by yaml-file**
+```
+kubectl apply -f yourfile.yaml
+```
+
+**Display the number of pods**
+```
+kubectl get pod
+```
+
+**Display running services**
+```
+kubectl get service
+```
+
+**How to validate the service has the right pod**
+<br/>you get the IP,Port, TargetPort(if you defiend it), Endpoints(is the IPs of the pods, which the servie must forward the request to) and more...
+```
+kubectl describe service your-service-name
+```
+
+**Display more infos about pod**
+<br/> -o stands for output
+```
+kubectl get pod -o wide 
+```
+
+**Save status of deployment in a file**
+<br/> Kubernetes generates status automatically. we need to get the result of updated information f.e of deployment whiche is stored in "etcd-db"
+<br/> "> nginx-deployment-muster-result.yaml" means, you save status in a file(it can be helpful by debugging)
+```
+kubectl get deployment nginx-deployment-muster -o yaml > nginx-deployment-muster-result.yaml
+```
+
+**Delete configuration file**
+```
+kubectl delete -f yourfile.yaml
+```
+
+
+
+
