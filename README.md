@@ -47,3 +47,4 @@ Note: if Storage, Compute, Networking, and ContainerService are not registered, 
 References:
 * https://stackify.com/azure-container-service-kubernetes/
 * https://docs.microsoft.com/de-de/azure/aks/use-managed-identity
+* https://azuredevopslabs.com/labs/vstsextend/kubernetes/
