@@ -9,3 +9,6 @@
 **Azure Pipeline Tasks**
 [Task with yaml](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/build/dotnet-core-cli?view=azure-devops)
 
+**App-Object and Servie Principle**
+[Application and service principal objects](https://docs.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)
+
